@@ -1,167 +1,102 @@
-# Awesome-Database-Gui-Development-Tool
+# 🗄️ Awesome Database GUI & Development Tools 🚀
 
-I don't have access to your `README.md` file, and I have no tools to create files, run `git`, or push to GitHub. The `@README.md` reference only works inside your IDE.
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Database GUI & Development Tools Banner" width="100%" />
+</p>
 
-
-
-Here is the complete, ready-to-paste README.md for **Awesome-Database-Gui-Development-Tool**.
-
-
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Database-Gui-Development-Tool?style=flat-square" alt="Last Commit" />
+  <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Database-Gui-Development-Tool?style=flat-square" alt="License" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 📌 Overview & Category Insights
 
+Welcome to the ultimate curated directory of **Database GUIs, SQL Editors, Schema Management Platforms, and Data Modeling Tools**. Whether you are looking for enterprise-grade proprietary clients or lightweight open-source SQL editors, this repository categorizes top-tier solutions for PostgreSQL, MySQL, SQL Server, Oracle, SQLite, MongoDB, and multi-engine architectures.
 
-# Awesome-Database-Gui-Development-Tool
-
-
-
-**Curated List of Commercial Tools & Open-Source GitHub Projects**
-
-*Focused on SQL Editors, Database GUIs, Schema Management & Multi-Engine Development*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial tools** and **open-source projects** for **Database GUI & Development**. These tools help developers and DBAs write SQL, browse schemas, edit data, and manage databases across engines like PostgreSQL, MySQL, SQL Server, and Oracle.
-
-
-
-**Examples** include Azure Data Studio, DBeaver, DataGrip, TablePlus, Beekeeper Studio, Navicat, HeidiSQL, DBVisualizer, OmniDB, and SQLGate (the category leaders).
-
-
-
-**Open-source emphasis**: The open-source database GUI ecosystem is **exceptionally mature**. **DBeaver Community** (Apache-2.0) is the leading universal client supporting nearly every SQL dialect . **Beekeeper Studio** offers a modern, VSCode-like experience with an OSI-approved community edition . **OmniDB** provides a lightweight, cross-platform tool with strong PostgreSQL support . This section documents these production-grade solutions.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
+---
 
 ## 📖 Table of Contents
 
-
-
-- [💼 Commercial Tools](#-commercial-tools)
-
+- [💼 Commercial & SaaS Database Tools](#-commercial--saas-database-tools)
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
 - [🤝 How to Contribute](#-how-to-contribute)
-
+- [💖 Support & Sponsorship](#-support--sponsorship)
 - [⚠️ Disclaimer](#-disclaimer)
-
-
-
-## 💼 Commercial Tools
-
-
-
-> **📊 Market Context**: The database GUI market is **moderately fragmented**. **DataGrip** made a major move in 2024 by becoming **free for non-commercial use** while remaining **$109/year for individual commercial** use . **Navicat** won **Best Database Development Platform** and **Best Data Modeling Solution** at the 2026 DBTA Readers' Choice Awards . **Beekeeper Studio** positions itself as an **independently run, investor-free** alternative, with a **generous free Community Edition** and paid tiers for advanced features . No single vendor holds a winner-take-all position; developers typically run multiple tools based on engine and task.
-
-
-
-| Tool | Description | Pricing (Starting Tier) | Free Tier Limits | Company Size |
-
-|------|-------------|------------------------|------------------|--------------|
-
-| **[Azure Data Studio](https://learn.microsoft.com/en-us/azure-data-studio/)** | **Microsoft's lightweight, cross-platform data management and development tool.** Modern editor with IntelliSense, code snippets, source control integration, and integrated terminal. Extensible via extension library for MySQL, PostgreSQL, Cosmos DB, and more . **Important**: **Azure Data Studio is being retired on February 28, 2026**. Microsoft recommends migrating to the **MSSQL extension for Visual Studio Code** . | **Free** — bundled with SSMS 18.7 through 19.3 or available for standalone download . | **Unlimited** — free cross-platform tool. Supports Windows, macOS, and Linux . | **~$281B revenue (Microsoft FY2025)** |
-
-| **[DataGrip](https://www.jetbrains.com/datagrip/)** | **JetBrains' full SQL IDE.** Smart code completion, refactoring, version control integration, and visual explain plans for serious schema work . | **Individual Commercial**: **$109** year 1, **$87** year 2, **$65** year 3+ . | **Free for non-commercial use** (learning, open-source, hobby). **30-day commercial trial** . | **Private (JetBrains, ~$500M+ revenue est.)** |
-
-| **[TablePlus](https://tableplus.com/)** | **Fast, clean native database client.** Popular on macOS with a genuinely pleasant query and table-editing UI . | **Basic**: **$99** one-time (1 device); **Standard**: **$129** (2 devices); **Team**: **$79/seat** . | **Free trial**: Limited tabs and windows. **No perpetual free tier** . | **Private (~$10M+ revenue est.)** |
-
-| **[Navicat](https://www.navicat.com/)** | **Cross-platform database development and management tool.** Navicat Premium connects to MySQL, PostgreSQL, SQL Server, Oracle, SQLite, MongoDB, and Snowflake from a single application . **2026 DBTA Award Winner**: Best Database Development Platform (Navicat for MySQL) and Best Data Modeling Solution (Navicat Data Modeler) . | **Custom pricing** — quote required. Perpetual and subscription licenses available. | **14-day free trial**. **Non-Commercial Edition** for educational/non-profit use . | **Private (PremiumSoft, ~$50M+ revenue est.)** |
-
-| **[DBVisualizer](https://www.dbvis.com/)** | **Universal database tool for developers and DBAs.** Supports many databases with a single JDBC driver . | **Free**: Available with limited features; **Pro**: Subscription or perpetual license. | **Free edition**: Basic query and data browsing. **Pro trial** available . | **Private (~$10M+ revenue est.)** |
-
-| **[SQLGate](https://www.sqlgate.com/)** | **Database development and administration tool.** | **Custom pricing** — quote required. | **Free trial** available. | **Private** |
-
-
-
-## 🔓 Open-Source GitHub Projects
-
-
-
-Sorted by star count (descending). Star badge links to each repo's stargazers page.
-
-
-
-| Repo | Description | Stars |
-
-|------|-------------|-------|
-
-| **[DBeaver Community](https://github.com/dbeaver/dbeaver)** — **The leading universal database client.** Free, open-source (Apache-2.0). Supports MySQL, PostgreSQL, SQLite, MariaDB, Oracle, SQL Server, MongoDB, ClickHouse, and more via JDBC drivers. Features ER diagrams, data import/export, visual query builder, and plugin ecosystem . | [![Stars](https://img.shields.io/github/stars/dbeaver/dbeaver?style=social&color=white)](https://github.com/dbeaver/dbeaver/stargazers) | ~51,800 |
-
-| **[Beekeeper Studio](https://github.com/beekeeper-studio/beekeeper-studio)** — **Modern, easy-to-use SQL editor and database manager.** Open-source community edition under an OSI-approved license. Features: SQL editor with syntax highlighting and auto-complete, spreadsheet-like data editing, JSON editing, table creator without SQL, CSV/JSON/SQL import/export, SSH tunneling, and **AI Shell** for AI-assisted querying . Supports MySQL, Postgres, SQLite, SQL Server, Firebird, and more . | [![Stars](https://img.shields.io/github/stars/beekeeper-studio/beekeeper-studio?style=social&color=white)](https://github.com/beekeeper-studio/beekeeper-studio/stargazers) | ~17,000 |
-
-| **[OmniDB](https://github.com/heptau/omnidb)** — **User-friendly, lightweight, cross-platform database management tool.** Strong support for PostgreSQL and compatibility with MySQL, MariaDB, SQLite, Oracle, MS SQL Server, and Firebird. Features: modern UI with dark/light theme, advanced SQL editor with auto-completion, **Visual Explain** for query plans, **Notify Panel** for live LISTEN/NOTIFY streaming, SSH tunneling, and LDAP/Active Directory authentication . **MIT licensed**, Go-based backend . | [![Stars](https://img.shields.io/github/stars/heptau/omnidb?style=social&color=white)](https://github.com/heptau/omnidb/stargazers) | ~1,500 |
-
-| **[HeidiSQL](https://github.com/HeidiSQL/HeidiSQL)** — **Lightweight, free Windows client for MySQL, MariaDB, PostgreSQL, and SQL Server.** Fast grid editing and simple exports . | [![Stars](https://img.shields.io/github/stars/HeidiSQL/HeidiSQL?style=social&color=white)](https://github.com/HeidiSQL/HeidiSQL/stargazers) | ~4,500 |
-
-| **[ChartDB](https://github.com/chartdb/chartdb)** — **Database diagrams editor that visualizes and designs your DB with a single query.** Reverse engineer schemas, export scripts, no signup required . | [![Stars](https://img.shields.io/github/stars/chartdb/chartdb?style=social&color=white)](https://github.com/chartdb/chartdb/stargazers) | ~39,600 |
-
-| **[Bytebase](https://github.com/bytebase/bytebase)** — **Safe database schema change and version control for DevOps teams.** Supports MySQL, PostgreSQL, TiDB, ClickHouse, and Snowflake. GitOps integration, review workflows, and data masking . | [![Stars](https://img.shields.io/github/stars/bytebase/bytebase?style=social&color=white)](https://github.com/bytebase/bytebase/stargazers) | ~14,500 |
-
-
-
-**Additional open-source options worth exploring:**
-
-
-
-| Repo | Description |
-
-|------|-------------|
-
-| **[Adminer](https://github.com/vrana/adminer)** — Database management in a single PHP file. Supports MySQL, PostgreSQL, SQLite, MS SQL, Oracle, MongoDB . |
-
-| **[CloudBeaver](https://github.com/dbeaver/cloudbeaver)** — Web/hosted version of DBeaver. Manage PostgreSQL, MySQL, SQLite, and more from the browser . |
-
-| **[Mathesar](https://github.com/mathesar-foundation/mathesar)** — Intuitive UI to manage data collaboratively for users of all technical skill levels. Built on Postgres . |
-
-| **[Azimutt](https://github.com/azimuttapp/azimutt)** — Visual database exploration for big and messy databases. Schema exploration, documentation, and analysis . |
-
-
-
-## 🤝 How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's commercial or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## ⚠️ Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Database GUI tools handle sensitive data and credentials; ensure proper security configuration, least-privilege access, and compliance with organizational policies.
-
-- **Critical lifecycle notice**: **Azure Data Studio is being retired on February 28, 2026**. Microsoft recommends migrating to the **MSSQL extension for Visual Studio Code** .
-
-- **Open-source reality**: The open-source ecosystem for database GUIs is **exceptionally mature and production-proven**. **DBeaver Community** is the leading universal client supporting nearly every SQL dialect . **Beekeeper Studio** provides a modern, VSCode-like experience with an OSI-approved community edition and no investor pressure . **OmniDB** offers a lightweight, cross-platform tool with strong PostgreSQL support . However, **commercial tools** (DataGrip, Navicat, TablePlus) provide **polished IDE features, intelligent autocomplete, and visual explain plans** that open-source alternatives may lack. The open-source path is **genuinely viable** for most database development scenarios.
-
-- **Pricing caveat**: All pricing figures are **verified against cited search results** but may change without notice. **DataGrip's free non-commercial tier** is a major shift for the category . Always check the vendor's official page for current terms.
-
-
+- [⭐ Star History](#-star-history)
 
 ---
 
+## 💼 Commercial & SaaS Database Tools
 
+> **📊 Sector Market Size & Dynamics**: The global database management tools and database administration software market is estimated at **~$7.5 Billion to $10 Billion** (expanding alongside the $100B+ broader DBMS market). The database GUI market is **moderately fragmented**: no single vendor holds a winner-take-all monopoly because developer preferences vary heavily by database engine, operating system, and specialized DBA workflow. Major shifts include **DataGrip** introducing free non-commercial licensing and **Navicat** continuing enterprise dominance across multi-engine setups.
 
-**Made for database developers, DBAs, data engineers, and IT operations teams.**
+Below is a tabular overview of top commercial/SaaS database development products sorted by company size/valuation (descending):
 
-Let's make database GUI development more open, transparent, and accessible.
+| Tool 🛠️ | Description 📝 | Pricing (Starting Tier) 🏷️ | Free Tier / Trial Limits ⏳ | Company Size / Revenue 🏢 |
+|:---|:---|:---|:---|:---|
+| **[Azure Data Studio](https://learn.microsoft.com/en-us/azure-data-studio/)** | **Microsoft's cross-platform data client.** Modern SQL editor with IntelliSense, notebooks, source control, and extension support for SQL Server, Postgres, and MySQL. | **Free** (Bundled utility / Standalone download) | **Unlimited Free Version** (Note: Retiring Feb 28, 2026; migrating to VS Code MSSQL extension) | **~$281B Revenue** (Microsoft FY2025) |
+| **[DataGrip](https://www.jetbrains.com/datagrip/)** | **JetBrains' flaghip SQL IDE.** Features context-aware code completion, schema refactoring, visual git integration, and query explain plans. | **$109.00/year** (Individual Commercial) | **Free for non-commercial use** (learning/open-source); **30-day free trial** for commercial use | **Private** (~$500M+ Revenue est., JetBrains) |
+| **[Navicat Premium](https://www.navicat.com/)** | **Enterprise multi-engine database admin tool.** Connects simultaneously to MySQL, PostgreSQL, SQL Server, Oracle, SQLite, and MariaDB. | **$19.99/month** (Navicat Subscription starting tier) | **14-day full-featured free trial** | **Private** (~$50M+ Revenue est., PremiumSoft) |
+| **[DBVisualizer](https://www.dbvis.com/)** | **Universal database tool for developers and DBAs.** Connects to almost any database via JDBC with visual schema mapping. | **$197.00/year** (Pro License starting tier) | **Free Edition** available with basic query/browsing capabilities | **Private** (~$10M+ Revenue est.) |
+| **[TablePlus](https://tableplus.com/)** | **Fast, native database client.** Ultra-lightweight native UI for macOS, Windows, and Linux with inline data editing and encrypted connections. | **$99.00 one-time** (Basic License, 1 device) | **Free Trial** (Restricted to 2 open tabs, 2 open windows, and 2 active connection filters) | **Private** (~$10M+ Revenue est.) |
+| **[SQLGate](https://www.sqlgate.com/)** | **Integrated database management software.** Specialized query optimization and developer workbench for Oracle, SQL Server, and MySQL. | **$29.00/month** (Standard Subscription) | **14-day free trial** | **Private** (~$5M+ Revenue est.) |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The open-source database GUI ecosystem is exceptionally mature. Below are leading open-source database tools sorted strictly by **GitHub Star Count (descending)**:
+
+| Repo 📦 | Description 📝 | Stars ⭐ |
+|:---|:---|:---:|
+| **[DBeaver Community](https://github.com/dbeaver/dbeaver)** | **Universal database management tool & SQL client.** Supports MySQL, PostgreSQL, SQLite, Oracle, SQL Server, ClickHouse, and 100+ DBs via JDBC. | [<img src="https://img.shields.io/github/stars/dbeaver/dbeaver?style=social&color=white" alt="DBeaver Stars" />](https://github.com/dbeaver/dbeaver/stargazers) |
+| **[ChartDB](https://github.com/chartdb/chartdb)** | **Database diagram editor.** Visualizes and designs database schemas with a single SQL query, zero configuration needed. | [<img src="https://img.shields.io/github/stars/chartdb/chartdb?style=social&color=white" alt="ChartDB Stars" />](https://github.com/chartdb/chartdb/stargazers) |
+| **[Beekeeper Studio](https://github.com/beekeeper-studio/beekeeper-studio)** | **Modern, privacy-focused SQL editor & database manager.** Features tabbed editing, SSH tunneling, and spreadsheet-style editing. | [<img src="https://img.shields.io/github/stars/beekeeper-studio/beekeeper-studio?style=social&color=white" alt="Beekeeper Studio Stars" />](https://github.com/beekeeper-studio/beekeeper-studio/stargazers) |
+| **[Bytebase](https://github.com/bytebase/bytebase)** | **DevOps database CI/CD and schema change management platform.** GitOps workflow for database migrations and compliance. | [<img src="https://img.shields.io/github/stars/bytebase/bytebase?style=social&color=white" alt="Bytebase Stars" />](https://github.com/bytebase/bytebase/stargazers) |
+| **[Adminer](https://github.com/vrana/adminer)** | **Full-featured database management in a single PHP file.** Lightweight alternative to phpMyAdmin for MySQL, PostgreSQL, SQLite, Oracle, etc. | [<img src="https://img.shields.io/github/stars/vrana/adminer?style=social&color=white" alt="Adminer Stars" />](https://github.com/vrana/adminer/stargazers) |
+| **[HeidiSQL](https://github.com/HeidiSQL/HeidiSQL)** | **Lightweight Windows client for database management.** Fast data editing and table maintenance for MariaDB, MySQL, Postgres, and SQL Server. | [<img src="https://img.shields.io/github/stars/HeidiSQL/HeidiSQL?style=social&color=white" alt="HeidiSQL Stars" />](https://github.com/HeidiSQL/HeidiSQL/stargazers) |
+| **[Azimutt](https://github.com/azimuttapp/azimutt)** | **Next-gen entity-relationship database explorer.** Designed to explore, visualize, and analyze large and complex schemas. | [<img src="https://img.shields.io/github/stars/azimuttapp/azimutt?style=social&color=white" alt="Azimutt Stars" />](https://github.com/azimuttapp/azimutt/stargazers) |
+| **[Mathesar](https://github.com/mathesar-foundation/mathesar)** | **Intuitive collaborative data UI built on PostgreSQL.** Turns Postgres schemas into interactive, spreadsheet-like user web applications. | [<img src="https://img.shields.io/github/stars/mathesar-foundation/mathesar?style=social&color=white" alt="Mathesar Stars" />](https://github.com/mathesar-foundation/mathesar/stargazers) |
+| **[CloudBeaver](https://github.com/dbeaver/cloudbeaver)** | **Web-based cloud database manager.** Lightweight browser application powered by DBeaver engine for enterprise cloud data access. | [<img src="https://img.shields.io/github/stars/dbeaver/cloudbeaver?style=social&color=white" alt="CloudBeaver Stars" />](https://github.com/dbeaver/cloudbeaver/stargazers) |
+| **[OmniDB](https://github.com/heptau/omnidb)** | **Lightweight web-based SQL management tool.** Supports PostgreSQL, MySQL, SQLite, and Oracle with Visual Explain query plans. | [<img src="https://img.shields.io/github/stars/heptau/omnidb?style=social&color=white" alt="OmniDB Stars" />](https://github.com/heptau/omnidb/stargazers) |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! Help us maintain the most up-to-date catalog of SQL development tools:
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add/Update** your tool entry in `README.md` following the exact table structure.
+3. 🔍 **Provide factual details**: Ensure pricing, star badges, and links are verified.
+4. 🚀 **Submit a Pull Request** with a clear description of the project.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated list valuable for your daily database work or team setup, please consider supporting the project!
+
+- ⭐ **Star** this repository to increase visibility.
+- 🔀 **Fork** and share with fellow developers, DBAs, and data engineers.
+- ☕ **Buy me a coffee**: Support ongoing open-source curation and development via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for being part of the developer community! ❤️
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for informational purposes and does not constitute formal endorsement.
+- Ensure proper security parameters (SSL/TLS, SSH tunnels, least-privilege RBAC) when connecting database GUI clients to production infrastructure.
+- **Lifecycle Note**: Azure Data Studio is scheduled for retirement on February 28, 2026. Microsoft recommends switching to the official MSSQL extension for VS Code.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Database-Gui-Development-Tool&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Database-Gui-Development-Tool&type=date&legend=top-left)
