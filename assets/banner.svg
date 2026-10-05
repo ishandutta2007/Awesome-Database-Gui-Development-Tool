@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.6" />
+    </linearGradient>
+
+    <linearGradient id="pulseLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="1" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .title { font-family: system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 46px; fill: url(#titleGrad); }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-weight: 500; font-size: 20px; fill: #94a3b8; }
+      .badge-text { font-family: system-ui, -apple-system, sans-serif; font-weight: 600; font-size: 14px; fill: #e2e8f0; }
+
+      @keyframes pulse {
+        0% { transform: scale(1); opacity: 0.3; }
+        50% { transform: scale(1.08); opacity: 0.7; }
+        100% { transform: scale(1); opacity: 0.3; }
+      }
+
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0px); }
+      }
+
+      @keyframes stream {
+        0% { stroke-dashoffset: 1000; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      .animated-bg-circle { animation: pulse 6s infinite ease-in-out; transform-origin: center; }
+      .floating-card { animation: float 4s infinite ease-in-out; }
+      .data-stream { stroke-dasharray: 20 400; animation: stream 8s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="320" rx="16" fill="url(#bgGrad)" />
+  <rect width="1196" height="316" x="2" y="2" rx="14" fill="none" stroke="#334155" stroke-width="2" />
+
+  <!-- Background Dynamic Graphic Elements (Layer 0 - Behind Text) -->
+  <circle cx="200" cy="160" r="180" fill="#38bdf8" opacity="0.05" class="animated-bg-circle" />
+  <circle cx="1000" cy="160" r="220" fill="#818cf8" opacity="0.05" class="animated-bg-circle" style="animation-delay: -3s;" />
+
+  <!-- Flow Lines / Data Streams (Background layer) -->
+  <path d="M 50 260 Q 300 290 600 260 T 1150 260" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4" />
+  <path d="M 50 260 Q 300 290 600 260 T 1150 260" fill="none" stroke="url(#pulseLine)" stroke-width="3" class="data-stream" />
+
+  <!-- Side Floating Micro Cards (Decorations positioned safely on sides) -->
+  <g class="floating-card" transform="translate(60, 50)">
+    <rect width="140" height="60" rx="10" fill="url(#cardGrad)" stroke="#475569" stroke-width="1" />
+    <circle cx="25" cy="30" r="12" fill="#0284c7" opacity="0.8" />
+    <text x="21" y="35" font-family="sans-serif" font-size="14" fill="#fff" font-weight="bold">⚡</text>
+    <text x="48" y="28" class="badge-text" font-size="12">PostgreSQL</text>
+    <text x="48" y="44" fill="#38bdf8" font-family="sans-serif" font-size="10" font-weight="bold">v16 Ready</text>
+  </g>
+
+  <g class="floating-card" transform="translate(1000, 50)" style="animation-delay: -2s;">
+    <rect width="140" height="60" rx="10" fill="url(#cardGrad)" stroke="#475569" stroke-width="1" />
+    <circle cx="25" cy="30" r="12" fill="#6366f1" opacity="0.8" />
+    <text x="19" y="35" font-family="sans-serif" font-size="14" fill="#fff" font-weight="bold">📊</text>
+    <text x="48" y="28" class="badge-text" font-size="12">MySQL &amp; SQL</text>
+    <text x="48" y="44" fill="#818cf8" font-family="sans-serif" font-size="10" font-weight="bold">Multi-Engine</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Title and Subtitle -->
+  <g transform="translate(600, 135)" text-anchor="middle">
+    <!-- Main Title -->
+    <text class="title" x="0" y="0" filter="url(#glow)">Awesome Database GUI Tools</text>
+
+    <!-- Subtitle -->
+    <text class="subtitle" x="0" y="42">Curated Commercial &amp; Open-Source SQL Editors, Clients &amp; Schema Managers</text>
+
+    <!-- Tech Badges / Pills in Hero -->
+    <g transform="translate(-240, 75)">
+      <rect x="0" y="0" width="130" height="30" rx="15" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+      <text x="65" y="19" text-anchor="middle" class="badge-text" fill="#38bdf8">🚀 SQL Editors</text>
+
+      <rect x="145" y="0" width="150" height="30" rx="15" fill="#1e293b" stroke="#818cf8" stroke-width="1" />
+      <text x="220" y="19" text-anchor="middle" class="badge-text" fill="#818cf8">💎 Database GUIs</text>
+
+      <rect x="310" y="0" width="170" height="30" rx="15" fill="#1e293b" stroke="#c084fc" stroke-width="1" />
+      <text x="395" y="19" text-anchor="middle" class="badge-text" fill="#c084fc">🔓 Open Source &amp; SaaS</text>
+    </g>
+  </g>
+</svg>
