@@ -49,9 +49,9 @@ Below is a tabular overview of top commercial/SaaS database development products
 
 ## 🔓 Open-Source GitHub Projects
 
-The open-source database GUI ecosystem is exceptionally mature. Below are leading open-source database tools sorted strictly by **GitHub Star Count (descending)**:
+The open-source database GUI ecosystem is exceptionally mature. Below are leading open-source database tools sorted strictly by **GitHub Stars_Count (descending)**:
 
-| Repo 📦 | Description 📝 | Stars ⭐ |
+| Repo 📦 | Description 📝 | GitHub_Stars ⭐ |
 |:---|:---|:---:|
 | **[DBeaver Community](https://github.com/dbeaver/dbeaver)** | **Universal database management tool & SQL client.** Supports MySQL, PostgreSQL, SQLite, Oracle, SQL Server, ClickHouse, and 100+ DBs via JDBC. | [<img src="https://img.shields.io/github/stars/dbeaver/dbeaver?style=social&color=white" alt="DBeaver Stars" />](https://github.com/dbeaver/dbeaver/stargazers) |
 | **[ChartDB](https://github.com/chartdb/chartdb)** | **Database diagram editor.** Visualizes and designs database schemas with a single SQL query, zero configuration needed. | [<img src="https://img.shields.io/github/stars/chartdb/chartdb?style=social&color=white" alt="ChartDB Stars" />](https://github.com/chartdb/chartdb/stargazers) |
@@ -72,7 +72,7 @@ Contributions are warmly welcome! Help us maintain the most up-to-date catalog o
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/Update** your tool entry in `README.md` following the exact table structure.
-3. 🔍 **Provide factual details**: Ensure pricing, star badges, and links are verified.
+3. 🔍 **Provide factual details**: Ensure pricing, Stars_Badges, and links are verified.
 4. 🚀 **Submit a Pull Request** with a clear description of the project.
 
 ---
